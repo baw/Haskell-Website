@@ -26,10 +26,15 @@ handleCommunityChat :: Handler App App ()
 handleCommunityChat = redirect "http://imamathwiz.github.io/community_chat/"
 
 ------------------------------------------------------------------------------
+handleAsteroids :: Handler App App ()
+handleAsteroids = redirect "http://imamathwiz.github.io/asteroids/"
+
+------------------------------------------------------------------------------
 -- | The application's routes.
 routes :: [(ByteString, Handler App App ())]
 routes = [ ("", handleHomePage)
          , ("static",  serveDirectory "static")
+         , ("asteroids", handleAsteroids)
          , ("community_chat", handleCommunityChat)
          ]
 
