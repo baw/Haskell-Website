@@ -17,12 +17,14 @@ import           Snap.Util.FileServe
 import           Application
 
 ------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
+handleHomePage :: Handler App (App) ()
+handleHomePage = render "home_page"
 
 ------------------------------------------------------------------------------
 -- | The application's routes.
 routes :: [(ByteString, Handler App App ())]
+routes = [ ("", handleHomePage)
+         , ("static",  serveDirectory "static")
          ]
 
 
