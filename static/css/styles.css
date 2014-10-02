@@ -1,0 +1,132 @@
+html, body {
+  padding:0;
+  margin:0;
+  font-family:"Raleway";
+}
+
+body {
+  overflow-y: hidden
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
+}
+
+footer, .main {
+  position:absolute;
+  right:15%;
+  left:15%;
+}
+
+.main {
+  top:20%;
+  text-align:center;
+}
+
+footer {
+  bottom:20px;
+}
+
+.mainLinks {
+  padding-left:0;
+  list-style:none;
+}
+
+.mainLinks li {
+  display:inline-block;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+  color:black;
+}
+
+.pageLinks {
+  overflow:hidden;
+  position:absolute;
+  top:-1500px;
+  width:100%;
+}
+
+.scroll {
+  position: absolute;
+  overflow-y: auto;
+  min-height: 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.socialLinks {
+  list-style:none;
+  width:325px;
+  padding-left:0;
+  margin:auto;
+}
+
+.socialLinks li {
+  display:inline-block;
+  margin-right:8px;
+}
+
+.socialLinks a {
+  text-decoration:none;
+}
+
+.socialLinks .text {
+  display:inline-block;
+}
+
+.socialLinks a:hover .text {
+  text-decoration:underline;
+  color:black;
+}
+
+.project {
+  display: inline-block;
+  width: 50%;
+}
+
+.footerLinkImg {
+  background-repeat: no-repeat;
+  padding:10px 0 10px 40px;
+  background-image: url(../img/image_sprite.png);
+}
+
+.contact {
+  background-position: -10px -10px;
+}
+
+.github {
+  background-position: -10px -65px;
+}
+
+.linkedin {
+  background-position: -10px -120px;
+}
+
+
+@media all and (min-height:400px) {
+  .main {
+    top:30%;
+  }
+}
+
+@media all and (min-height:500px) {
+  .main {
+    top:35%;
+  }
+}
+
+@media all and (min-height:600px) {
+  .main {
+    top:37%;
+  }
+}
