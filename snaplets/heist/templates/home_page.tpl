@@ -38,12 +38,12 @@
           </div>
           
           <div class="project right">
-            <a href="http://brianweiser.io/community_chat/">
+            <a href="http://imamathwiz.github.io/community_chat/">
               <img src="static/img/community_chat.png" alt="Community Chat">
             </a>
             <div>
               <p>
-                <a href="http://brianweiser.io/community_chat/">
+                <a href="http://imamathwiz.github.io/community_chat/">
                   Community Chat
                 </a>
               </p>
