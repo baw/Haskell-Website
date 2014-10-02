@@ -21,7 +21,7 @@
           
           <div class="project left">
             <a href="http://notes.brianweiser.io">
-              <img src="static/img/the_purple_notes.jpg">
+              <img src="/static/img/the_purple_notes.jpg">
             </a>
             <div>
               <p>
@@ -39,7 +39,7 @@
           
           <div class="project right">
             <a href="http://imamathwiz.github.io/community_chat/">
-              <img src="static/img/community_chat.png" alt="Community Chat">
+              <img src="/static/img/community_chat.png" alt="Community Chat">
             </a>
             <div>
               <p>
@@ -57,7 +57,7 @@
           
           <div class="project left">
             <a href="https://github.com/imamathwiz/sentimetrics">
-              <img src="static/img/sentimetrics.jpg" alt="Sentimetrics">
+              <img src="/static/img/sentimetrics.jpg" alt="Sentimetrics">
             </a>
             <div>
               <p>
