@@ -15,8 +15,6 @@ import Snap.Snaplet.Session
 ------------------------------------------------------------------------------
 data App = App
     { _heist :: Snaplet (Heist App)
-    , _sess :: Snaplet SessionManager
-    , _auth :: Snaplet (AuthManager App)
     }
 
 makeLenses ''App
