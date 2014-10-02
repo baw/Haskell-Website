@@ -10,6 +10,7 @@ module Site
 
 ------------------------------------------------------------------------------
 import           Data.ByteString (ByteString)
+import           Snap
 import           Snap.Snaplet
 import           Snap.Snaplet.Heist
 import           Snap.Util.FileServe
@@ -21,10 +22,15 @@ handleHomePage :: Handler App (App) ()
 handleHomePage = render "home_page"
 
 ------------------------------------------------------------------------------
+handleCommunityChat :: Handler App App ()
+handleCommunityChat = redirect "http://imamathwiz.github.io/community_chat/"
+
+------------------------------------------------------------------------------
 -- | The application's routes.
 routes :: [(ByteString, Handler App App ())]
 routes = [ ("", handleHomePage)
          , ("static",  serveDirectory "static")
+         , ("community_chat", handleCommunityChat)
          ]
 
 
