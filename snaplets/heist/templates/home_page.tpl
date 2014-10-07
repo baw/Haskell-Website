@@ -31,7 +31,7 @@
               </p>
               <p>
                 <a href="http://github.com/imamathwiz/ThePurpleNotes">
-                  Github Repo
+                  GitHub Repo
                 </a>
               </p>
             </div>
@@ -49,7 +49,7 @@
               </p>
               <p>
                 <a href="http://github.com/imamathwiz/community_chat/">
-                  Github Repo
+                  GitHub Repo
                 </a>
               </p>
             </div>
@@ -67,7 +67,7 @@
               </p>
               <p>
                 <a href="https://github.com/imamathwiz/sentimetrics">
-                  Github Repo
+                  GitHub Repo
                 </a>
               </p>
             </div>
@@ -97,7 +97,7 @@
         </li>
         <li>
           <a class="footerLinkImg github" href="https://github.com/imamathwiz">
-            <div class="text">Github</div>
+            <div class="text">GitHub</div>
           </a>
         </li>
         <li>
