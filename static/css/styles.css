@@ -18,8 +18,8 @@ body {
 
 footer, .main {
   position:absolute;
-  right:15%;
-  left:15%;
+  left:0;
+  right:0;
 }
 
 .main {
@@ -112,6 +112,12 @@ a:hover {
   background-position: -10px -120px;
 }
 
+@media all and (min-width:400px) { 
+  footer, .main {
+    right:15%;
+    left:15%;
+  }
+}
 
 @media all and (min-height:400px) {
   .main {
