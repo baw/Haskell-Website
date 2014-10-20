@@ -21,7 +21,7 @@
           
           <div class="project left">
             <a href="http://notes.brianweiser.io">
-              <img src="//res.cloudinary.com/brian/image/upload/v1413764916/the_purple_notes_feuzuy.jpg">
+              <img src="//res.cloudinary.com/brian/image/upload/v1413764916/the_purple_notes.jpg">
             </a>
             <div>
               <p>
@@ -57,7 +57,7 @@
           
           <div class="project left">
             <a href="https://github.com/imamathwiz/sentimetrics">
-              <img src="//res.cloudinary.com/brian/image/upload/v1413764915/sentimetrics_olmpx9.jpg" alt="Sentimetrics">
+              <img src="//res.cloudinary.com/brian/image/upload/v1413764915/sentimetrics.jpg" alt="Sentimetrics">
             </a>
             <div>
               <p>
