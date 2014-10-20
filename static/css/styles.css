@@ -97,7 +97,7 @@ a:hover {
 .footerLinkImg {
   background-repeat: no-repeat;
   padding:10px 0 10px 40px;
-  background-image: url(../img/image_sprite.png);
+  background-image: url(//res.cloudinary.com/brian/image/upload/v1413764915/image_sprite_jgpmfd.png);
 }
 
 .contact {
