@@ -1,11 +1,11 @@
 Name:                Haskell-Website
 Version:             0.1
 Synopsis:            Project Synopsis Here
-Description:         Project Description Here
+Description:         My personal website
 License:             AllRightsReserved
-Author:              Author
-Maintainer:          maintainer@example.com
-Stability:           Experimental
+Author:              Brian Weiser
+Maintainer:          brian@brianweiser.io
+Stability:           Stable
 Category:            Web
 Build-type:          Simple
 Cabal-version:       >=1.2
