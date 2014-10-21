@@ -44,6 +44,8 @@
         history.pushState({}, "", pushStateLocation);
       }
       
+      ga("send", "pageview", "/" + pushStateLocation);
+
       $(showDiv).animate({ top: "150px"   });
       $(hideDiv).animate({ top: "-1500px" });
     });
