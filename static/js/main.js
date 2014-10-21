@@ -27,13 +27,21 @@
       
       var currentId = $(this).prop("id");
       
-      var showDiv, hideDiv;
+      var showDiv, hideDiv, pushStateLocation;
       if (currentId === "projectsLink") {
+        pushStateLocation = "projects";
+
         showDiv = ".projects";
         hideDiv = ".resume";
       } else {
+        pushStateLocation = "resume";
+
         showDiv = ".resume";
         hideDiv = ".projects";
+      }
+    
+      if (history !== undefined && history.pushState !== undefined) {
+        history.pushState({}, "", pushStateLocation);
       }
       
       $(showDiv).animate({ top: "150px"   });

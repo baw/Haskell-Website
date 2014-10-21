@@ -5,12 +5,12 @@
         <h2>Web Developer</h2>
         <ul class="mainLinks">
           <li>
-            <a id="projectsLink" href="#projects">
+            <a id="projectsLink" href="/projects">
               Projects
             </a>
           </li>
           <li>
-            <a id="resumeLink" href="#resume">
+            <a id="resumeLink" href="/resume">
               Résumé
             </a>
           </li>
@@ -107,4 +107,6 @@
         </li>
       </ul>
     </footer>
+    
+    <pageName/>
 </apply>
