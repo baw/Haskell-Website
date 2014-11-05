@@ -48,15 +48,18 @@ handleAsteroids = redirect "http://imamathwiz.github.io/asteroids/"
 ------------------------------------------------------------------------------
 pageNameSplice :: String -> Splice AppHandler
 pageNameSplice selector  = do
-    return [ HTML.Element (T.pack "script") [] [ HTML.TextNode $ T.pack $ "$(function () { $('" ++ selector ++ "').click() });" ] ]
+    return [ HTML.Element (T.pack "script") [] [ HTML.TextNode $ T.pack $
+             "$(function () { $('" ++ selector ++ "').click() });" ] ]
 
 ------------------------------------------------------------------------------
 handleProjectsPage :: Handler App App ()
-handleProjectsPage = heistLocal (bindSplice "pageName" (pageNameSplice "#projectsLink")) $ render "home_page"
+handleProjectsPage = heistLocal (bindSplice "pageName" (
+                          pageNameSplice "#projectsLink")) $ render "home_page"
 
 ------------------------------------------------------------------------------
 handleResumePage :: Handler App App ()
-handleResumePage = heistLocal (bindSplice "pageName" (pageNameSplice "#resumeLink")) $ render "home_page"
+handleResumePage = heistLocal (bindSplice "pageName" (pageNameSplice
+                          "#resumeLink")) $ render "home_page"
 
 ------------------------------------------------------------------------------
 -- | The application's routes.
