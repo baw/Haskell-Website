@@ -22,6 +22,18 @@ import qualified Text.XmlHtml as HTML
 import           Application
 
 ------------------------------------------------------------------------------
+-- DATA Types
+------------------------------------------------------------------------------
+
+data Post = Post
+    { postID    :: Integer
+    , title     :: T.Text
+    , body      :: T.Text
+    , createdAt :: UTCTime
+    , updatedAt :: UTCTime
+    } deriving (Eq, Show, Read)
+
+------------------------------------------------------------------------------
 handleHomePage :: Handler App (App) ()
 handleHomePage = render "home_page"
 
