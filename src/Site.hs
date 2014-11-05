@@ -11,6 +11,7 @@ module Site
 ------------------------------------------------------------------------------
 import           Data.ByteString (ByteString)
 import qualified Data.Text as T
+import           Database.PostgreSQL.Simple.FromRow
 import           Heist.Interpreted
 import           Snap
 import           Snap.Snaplet
