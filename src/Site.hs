@@ -16,6 +16,7 @@ import           Heist.Interpreted
 import           Snap
 import           Snap.Snaplet
 import           Snap.Snaplet.Heist
+import           Snap.Snaplet.PostgresqlSimple
 import           Snap.Util.FileServe
 import qualified Text.XmlHtml as HTML
 
@@ -79,6 +80,7 @@ routes = [ ("", handleHomePage)
 app :: SnapletInit App App
 app = makeSnaplet "app" "An snaplet example application." Nothing $ do
     h <- nestSnaplet "" heist $ heistInit "templates"
+    pg <- nestSnaplet "pg" pg pgsInit
     addRoutes routes
-    return $ App h
+    return $ App h pg
 
