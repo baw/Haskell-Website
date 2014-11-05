@@ -9,8 +9,11 @@ module Site
   ) where
 
 ------------------------------------------------------------------------------
+import           Control.Applicative
 import           Data.ByteString (ByteString)
+import           Data.Functor ((<$>))
 import qualified Data.Text as T
+import           Data.Time.Clock (UTCTime)
 import           Database.PostgreSQL.Simple.FromRow
 import           Heist.Interpreted
 import           Snap
@@ -33,7 +36,18 @@ data Post = Post
     , body      :: T.Text
     , createdAt :: UTCTime
     , updatedAt :: UTCTime
-    } deriving (Eq, Show, Read)
+    } deriving (Eq)
+
+instance FromRow Post where
+    fromRow = Post <$> field <*> field <*> field <*> field <*> field
+
+instance Show Post where
+    show (Post postId title body createdAt updatedAt) =
+        "Post { title "     ++ T.unpack title   ++
+                "body "     ++ T.unpack body    ++
+                "createdAt" ++ (show createdAt) ++
+                "updatedAt" ++ (show updatedAt) ++
+             "}"
 
 ------------------------------------------------------------------------------
 handleHomePage :: Handler App (App) ()
