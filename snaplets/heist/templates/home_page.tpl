@@ -21,11 +21,11 @@
           
           <div class="project left">
             <a href="http://notes.brianweiser.io">
-              <img src="//res.cloudinary.com/brian/image/upload/v1420171423/the_purple_notes.jpg">
+              <img src="//res.cloudinary.com/brian/image/upload/v1420171423/the_purple_notes.jpg" alt="The Purple Notes">
             </a>
             <div>
               <p>
-                <a href="http://notes.brianweiser.io" alt="The Purple Notes">
+                <a href="http://notes.brianweiser.io">
                   The Purple Notes
                 </a>
               </p>
