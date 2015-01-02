@@ -26,7 +26,7 @@
             <div>
               <p>
                 <a href="http://notes.brianweiser.io" alt="The Purple Notes">
-                  Note-Taking Web Applicaiton
+                  The Purple Notes
                 </a>
               </p>
               <p>
