@@ -40,11 +40,11 @@ pageNameSplice selector  = do
 
 ------------------------------------------------------------------------------
 handleProjectsPage :: Handler App App ()
-handleProjectsPage = heistLocal (bindSplice "pageName" (pageNameSplice "#projectsLink")) $ render "home_page"
+handleProjectsPage = heistLocal (bindSplice "pageName" (pageNameSplice "#projectsLink")) $ handleHomePage
 
 ------------------------------------------------------------------------------
 handleResumePage :: Handler App App ()
-handleResumePage = heistLocal (bindSplice "pageName" (pageNameSplice "#resumeLink")) $ render "home_page"
+handleResumePage = heistLocal (bindSplice "pageName" (pageNameSplice "#resumeLink")) $ handleHomePage
 
 ------------------------------------------------------------------------------
 -- | The application's routes.
