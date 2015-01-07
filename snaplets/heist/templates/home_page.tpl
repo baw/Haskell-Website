@@ -17,7 +17,7 @@
         </ul>
         
         <div class="projects pageLinks">
-          <h1>Projects</h1>
+          <h3 class="title">Projects</h3>
           
           <div class="project left">
             <a href="http://notes.brianweiser.io">
@@ -77,7 +77,7 @@
         </div>
         
         <div class="resume pageLinks">
-          <h1>Résumé</h1>
+          <h3 class="title">Résumé</h3>
           <p>Check out my
             <a href="https://www.linkedin.com/in/brianandrewweiser">LinkedIn Page</a>!
           </p>
