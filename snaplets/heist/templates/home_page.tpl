@@ -73,6 +73,24 @@
             </div>
           </div>
           
+          <div class="project right">
+            <a href="http://imamathwiz.github.io/Data-Visualization-Demo/">
+              <img src="//res.cloudinary.com/brian/image/upload/v1422047186/data_visualization_demo.png" alt="Data Visualization Demo">
+            </a>
+            <div>
+              <p>
+                <a href="http://imamathwiz.github.io/Data-Visualization-Demo/">
+                  Data Visualization Demo
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/imamathwiz/Data-Visualization-Demo">
+                  GitHub Repo
+                </a>
+              </p>
+            </div>
+          </div>
+          
           <p>Check back for more projects!</p>
         </div>
         
