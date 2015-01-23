@@ -91,7 +91,7 @@
             </div>
           </div>
           
-          <p>Check back for more projects!</p>
+          <p class="moreProjects">Check back for more projects!</p>
         </div>
         
         <div class="resume pageLinks">

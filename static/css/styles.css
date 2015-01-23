@@ -94,6 +94,11 @@ a:hover {
   width: 50%;
 }
 
+.moreProjects {
+  min-height: 75px;
+  clear: both;
+}
+
 .footerLinkImg {
   background-repeat: no-repeat;
   padding:10px 0 10px 40px;
