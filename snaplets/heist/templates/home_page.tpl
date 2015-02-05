@@ -91,6 +91,24 @@
             </div>
           </div>
           
+          <div class="project left">
+            <a href="https://github.com/imamathwiz/Haskell-Website">
+              <img src="//res.cloudinary.com/brian/image/upload/v1423170255/website.png" alt="Website">
+            </a>
+            <div>
+              <p>
+                <a href="https://github.com/imamathwiz/Haskell-Website">
+                  This Website (made with Haskell using the Snap Framework)
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/imamathwiz/Haskell-Website">
+                  GitHub Repo
+                </a>
+              </p>
+            </div>
+          </div>
+          
           <p class="moreProjects">Check back for more projects!</p>
         </div>
         
