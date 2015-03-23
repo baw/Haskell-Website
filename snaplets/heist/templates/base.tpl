@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -16,7 +17,7 @@
         
         ga('create', 'UA-52970279-1', 'auto');
         ga('send', 'pageview');
-    </script> 
+    </script>
   </head>
   <body>
     <apply-content/>
