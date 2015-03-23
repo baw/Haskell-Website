@@ -25,6 +25,11 @@ footer, .main {
 .main {
   top:20%;
   text-align:center;
+  transition: top 1s;
+}
+
+.main.raise {
+  top:0;
 }
 
 footer {
@@ -54,6 +59,11 @@ a:hover {
   position:absolute;
   top:-1500px;
   width:100%;
+  transition: top 1s;
+}
+
+.pageLinks.lower {
+  top: 150px;
 }
 
 .scroll {
