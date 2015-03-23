@@ -7,8 +7,6 @@
     <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href="/static/css/styles.css" rel="stylesheet" type="text/css">
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/static/js/main.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,5 +19,7 @@
   </head>
   <body>
     <apply-content/>
+    
+    <script src="/static/js/main.js"></script>
   </body>
 </html>

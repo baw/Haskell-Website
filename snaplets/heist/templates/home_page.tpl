@@ -1,6 +1,6 @@
 <apply template="base">
   <div class="scroll">
-      <div class="main">
+      <div class="main" id="main">
         <h1>Brian Weiser</h1>
         <h2>Web Developer</h2>
         <ul class="mainLinks">
@@ -16,7 +16,7 @@
           </li>
         </ul>
         
-        <div class="projects pageLinks">
+        <div class="projects pageLinks" id="projects">
           <h3 class="title">Projects</h3>
           
           <div class="project left">
@@ -112,7 +112,7 @@
           <p class="moreProjects">Check back for more projects!</p>
         </div>
         
-        <div class="resume pageLinks">
+        <div class="resume pageLinks" id="resume">
           <h3 class="title">Résumé</h3>
           <p>Check out my
             <a href="https://www.linkedin.com/in/brianandrewweiser">LinkedIn Page</a>!
