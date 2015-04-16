@@ -36,7 +36,10 @@ handleAsteroids = redirect "http://imamathwiz.github.io/asteroids/"
 ------------------------------------------------------------------------------
 pageNameSplice :: String -> Splice AppHandler
 pageNameSplice selector  = do
-    return [ HTML.Element (T.pack "script") [] [ HTML.TextNode $ T.pack $ "document.getElementById('" ++ selector ++ "').click();" ] ]
+    return [ HTML.Element (T.pack "script") [] [ HTML.TextNode $ T.pack $
+              "var clickButton = function () {" ++
+                "document.getElementById('" ++ selector ++ "').click();" ++
+              "}" ] ]
 
 ------------------------------------------------------------------------------
 handleProjectsPage :: Handler App App ()

@@ -85,4 +85,8 @@
   
   addContact();
   addEvents();
+  
+  if (typeof clickButton === "function") {
+    clickButton();
+  }
 })();
