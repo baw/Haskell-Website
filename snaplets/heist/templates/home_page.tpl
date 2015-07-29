@@ -132,7 +132,7 @@
           </a>
         </li>
         <li>
-          <a class="footerLinkImg github" href="https://github.com/imamathwiz">
+          <a class="footerLinkImg github" href="https://github.com/baw">
             <div class="text">GitHub</div>
           </a>
         </li>
